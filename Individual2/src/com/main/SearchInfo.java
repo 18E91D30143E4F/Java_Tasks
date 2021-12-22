@@ -8,7 +8,7 @@ public class SearchInfo {
 		if (square < value) {
 			figure.printFigureInfo();
 			// Hashcode - unique number (nearly)
-			System.out.println(String.format("Detected. Expected < %s. Geted value: %s. Hashcode: %d", value, square, figure.hashCode()));	
+			System.out.println(String.format("Detected. Expected < %s. Gotten value: %s. Hashcode: %d", value, square, figure.hashCode()));	
 		}
 	}
 	
@@ -17,7 +17,7 @@ public class SearchInfo {
 		if (square > value) {
 			figure.printFigureInfo();
 			// Hashcode - unique number (nearly)
-			System.out.println(String.format("Detected. Expected > %s. Geted value: %s. Hashcode: %d", value, square, figure.hashCode()));		
+			System.out.println(String.format("Detected. Expected > %s. Gotten value: %s. Hashcode: %d", value, square, figure.hashCode()));		
 		}
 	}
 }
